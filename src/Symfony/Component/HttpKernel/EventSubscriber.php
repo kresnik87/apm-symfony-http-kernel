@@ -15,7 +15,7 @@ use Symfony\Component\Routing\RouterInterface;
 use ZoiloMora\ElasticAPM\ElasticApmTracer;
 use ZoiloMora\ElasticAPM\Events\Common\Context;
 
-final class EventSubscriber implements EventSubscriberInterface
+class EventSubscriber implements EventSubscriberInterface
 {
     private RouterInterface $router;
     private ElasticApmTracer $elasticApmTracer;
